@@ -28,14 +28,14 @@ $errors = [];
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Validate name
     if (empty($_POST['name'])) {
-        $errors['name'] = 'Bắt buộc nhập.';
+        $errors['name'] = 'Bắt buộc nhập. Là ký tự hợp lệ: A->Z, a->z, 0->9';
     } elseif (!preg_match('/^[A-Za-z0-9]{5,15}$/', $_POST['name'])) {
         $errors['name'] = 'Chiều dài phải từ 5 đến 15 ký tự .';
     }
 
     // Validate password
     if (empty($_POST['password'])) {
-        $errors['password'] = 'Bắt buộc nhập password.';
+        $errors['password'] = 'Bắt buộc nhập password. Phải bao gồm: chữ thường (a->z), chữ HOA (A->Z), số (0-9) và ký tự đặc biệt: ~!@#$%^&*()';
     } elseif (!preg_match('/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[~!@#$%^&*()]).{5,10}$/', $_POST['password'])) {
         $errors['password'] = 'Chiều dài phải từ 5 đến 10 ký tự .';
     }
