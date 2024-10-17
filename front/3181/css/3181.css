@@ -1,0 +1,195 @@
+.type-3181 #num1 .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.type-3181 #num1 img {
+  width: 100%;
+}
+.type-3181 .col-md-4 h2 {
+  color: #262626;
+  size: 39px;
+  font-weight: 700;
+  line-height: 1.05em;
+  letter-spacing: -0.195px;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+.type-3181 .col-md-4 .price {
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 1.3em;
+}
+.type-3181 .col-md-4 .danhgia {
+  color: #ddd;
+}
+.type-3181 .col-md-4 .danhgia .checked {
+  color: #000;
+}
+.type-3181 .col-md-4 .content {
+  color: #262626;
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.type-3181 .product .sku,
+.type-3181 .product .cate,
+.type-3181 .product .tag,
+.type-3181 .product .share {
+  display: flex;
+  margin: 11px 0;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #000;
+  gap: .5rem;
+}
+.type-3181 .product .sku ul,
+.type-3181 .product .cate ul,
+.type-3181 .product .tag ul,
+.type-3181 .product .share ul {
+  display: flex;
+  list-style: none;
+  gap: 1em;
+  color: #464646;
+}
+.type-3181 .product .sku-text,
+.type-3181 .product .cate-text,
+.type-3181 .product .tag-text {
+  display: flex;
+  font-weight: normal;
+  color: #464646;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+.type-3181 .tocart {
+  display: flex;
+}
+.type-3181 .tocart .quan {
+  display: flex;
+  align-items: center;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  background-color: #f5f5f5;
+  width: 100px;
+  height: 52px;
+  justify-content: space-between;
+}
+.type-3181 .tocart .number {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 18px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+}
+.type-3181 .tocart .icon-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  height: 52px;
+  justify-content: space-between;
+  width: 32px;
+  margin-left: 20px;
+  margin-right: 0;
+}
+.type-3181 .tocart .icon-button div {
+  border-bottom: 1px solid #000;
+  width: 32px;
+}
+.type-3181 .tocart .icon-button i {
+  background-color: #000;
+  padding: 5px;
+  cursor: pointer;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+}
+.type-3181 .tocart .addtocart {
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  outline: 0;
+  font-size: 16px;
+  line-height: 2em;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  padding: 9px 57px;
+  color: #fff;
+  background-color: #000;
+  border: 1px solid transparent;
+  cursor: pointer;
+  z-index: 3;
+  margin-left: 50px;
+}
+.type-3181 .tocart .addtocart:hover {
+  font-family: "Roboto Condensed", sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: auto;
+  outline: 0;
+  font-size: 16px;
+  line-height: 2em;
+  letter-spacing: -0.4px;
+  font-weight: 600;
+  padding: 9px 57px;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+  z-index: 3;
+}
+.type-3181 .heart {
+  margin-top: 20px;
+}
+.type-3181 .heart a {
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.type-3181 .heart span {
+  margin-right: 14px;
+}
+.type-3181 .heart a:hover {
+  color: #393838;
+}
+.type-3181 .des-view .des {
+  color: #262626;
+}
+.type-3181 .des-view .view {
+  color: #838383;
+}
+.type-3181 .des-view .des,
+.type-3181 .des-view .view {
+  display: inline-block;
+  margin-right: 20px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+  padding-top: 6px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.type-3181 .des-view hr {
+  width: 300px;
+  margin-bottom: 0;
+}
+.type-3181 .des-view p {
+  color: #262626;
+  padding-top: 10px;
+}
+.type-3181 .des-view .custom-line {
+  border-bottom: 2px solid #000;
+  width: 150px;
+  margin-top: 0;
+}
