@@ -1,0 +1,53 @@
+.type-3066 {
+    
+    .name {
+        text-align: center;
+        font-family: "Roboto","Helvetica","Arial",sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    h2{
+        font-family: "Helvetica","Arial",sans-serif;
+    }
+
+    .under {
+        width: 50px;
+        height: 3px;
+        margin: 10px auto;
+        background: #03a9f4;
+    }
+    .accordion-body{
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .accordion-button {
+        background-color: #2e3138; /* Màu nền mặc định (màu xám khi đóng) */
+        color: #fff; /* Màu chữ mặc định */
+        &:not(.collapsed)::after {
+            content: '−';
+            background-image: none;
+            transform: none;
+        
+        }
+        &::after {
+            content: "+";
+            background-image: none;
+            transition: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+        }
+    }
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #03a9f4;
+    box-shadow: none;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
